@@ -1,0 +1,16 @@
+body{
+    background: rgb(239,240,33);
+    background: linear-gradient(90deg, rgba(239,240,33,1) 0%, rgba(82,9,121,1) 35%, rgba(162,95,6,1) 55%, rgba(95,180,61,1) 71%, rgba(214,0,255,0.5270483193277311) 100%);
+}
+
+#columns{
+    column-count: 3;
+    column-gap: 5px;
+}
+
+#move{
+    background:gold;
+    width: 70px;
+    height: 70px;
+    transform: scale(5) rotate(720deg) translateX(125px) translateY(25px) skewX(10deg);
+}
